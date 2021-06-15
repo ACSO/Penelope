@@ -1,2 +1,2 @@
 # Penelope
-userscript (Javascript) that modifies UI elements
+Userscript (Javascript) that modifies UI elements' CSS.
