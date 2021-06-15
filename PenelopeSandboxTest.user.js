@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PenelopeSandboxTest
-// @namespace    http://tampermonkey.net/
+// @namespace    https://www.acso.org.au/
 // @version      0.1
 // @description  Disable Penelope v4 Options for External Stakeholders
 // @author       Andres Agudelo
