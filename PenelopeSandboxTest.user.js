@@ -183,7 +183,7 @@ if(elementMatch(document.querySelector("#contentContainer > div:nth-child(1) > d
 })(); //SCRIPT END
 /****************************************************************************************************************************************************************************************************/
 /**
- * Functions to modify UI elements
+ * Functions that modify UI elements' CSS
  *
  **/
 function hideElement(cssSelector,elemInnerText="",attributeToRemove=""){
