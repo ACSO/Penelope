@@ -168,6 +168,13 @@ if(elementMatch(document.querySelector("#contentContainer > div > div.mainTab > 
     //hide Report Tab side bar item in Individual Profile
     hideElement(document.querySelector("#indReportBucket"));
 } //INDIVIDUAL PROFILE SCREEN END
+/*SERVICE EVENT DOCUMENT*/
+if(elementMatch(document.querySelector("#contentContainer > div:nth-child(1) > div.mainTab > h1"),"Service Event Document")){
+ //hide Workflow in Service Event Document
+ hideElement(document.querySelector("#sideBarContainer > div > h2"),"Workflow");
+ //hideElement(document.querySelector("#workflowEnt2200_6725_Bucket")); //
+ hideElement(getElement(document.querySelectorAll("#sideBarContainer > div.buckets > h2 + div"),"workflow"));
+} /*SERVICE EVENT DOCUMENT END*/
 /******************************************************************************************/
 //$(document).ready(function(){
 //});
@@ -176,7 +183,7 @@ if(elementMatch(document.querySelector("#contentContainer > div > div.mainTab > 
 })(); //SCRIPT END
 /****************************************************************************************************************************************************************************************************/
 /**
- * Functions that modify UI elements' CSS
+ * Functions to modify UI elements
  *
  **/
 function hideElement(cssSelector,elemInnerText="",attributeToRemove=""){
